@@ -95,6 +95,10 @@ header {
     text-align: left;
 }
 
+img {
+    max-width: 100%;
+}
+
 @media (width > 660px) and (width < 1128px) {
     .white-bg > p {
         padding: 0px 50px;
