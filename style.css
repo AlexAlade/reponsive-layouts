@@ -1,0 +1,103 @@
+/*     font-family: 'Playfair Display', serif;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Roboto', sans-serif; */
+    /*     font-family: 'Playfair Display', serif;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Roboto', sans-serif; */
+    /*     font-family: 'Playfair Display', serif;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Roboto', sans-serif; */
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    border: #824936;
+}
+
+header {
+    background-color: #F3EED9;
+    margin: 0;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    text-align: center;
+    padding: 0px 5px;
+}
+
+#header > p {
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5px;
+    color: black;
+}
+
+#header > h1 {
+    color: #824936;
+    font-family: 'Playfair Display', serif;
+}
+
+.white-bg {
+    padding: 0px 5px;
+}
+
+.white-bg > h1 {
+    color: #824936;
+    text-align: center;
+}
+
+.white-bg > p {
+    text-align: left;
+    color: black;
+}
+
+.black-bg {
+    padding: 0px 5px;
+    background-color: #222C2A;
+}
+
+.black-bg > h1 {
+    color: #F3EED9;
+    text-align: center;
+}
+
+.black-bg > p {
+    color: #F3EED9;
+    text-align: left;
+}
+
+.brown-bg {
+    padding: 0px 5px;
+    background-color: #824936;
+}
+
+.brown-bg > h1 {
+    color: #F3EED9;
+    text-align: center;
+}
+
+.brown-bg > p {
+    color: #F3EED9;
+    text-align: left;
+}
+
+@media (width > 660px) and (width < 1128px) {
+    .white-bg > p {
+        padding: 0px 50px;
+        display: flex;
+    }
+} 
